@@ -42,15 +42,11 @@ The t-test of Lot3's PSIs compared to the 1500 PSI mean, however, did show a sig
 
 ## Study Design: MechaCar vs Competition
 
+Next, I think we should design a study to compare the MechaCar to the competition. Because MechaCar sounds like a very strong name, I think we should compare the MechaCar's overall horsepower to the competition and prove that MechaCar has a higher overall horsepower than the competition.
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+The null hypothesis is "If we compare the horsepower of MechaCar to its competition, we should see MechaCar having the same or less horsepower as the competition.
+The alternative hypothesis is "If we compare the horsepower of MechaCar to its competition, MechaCar will produce higher horsepower than the competition.
 
-In your description, address the following questions:
+We'd need to gather a very large sample set of data in order to get a large sample size to more accurately predict any variances in the data. I would suggest 100 quarter-mile runs on the MechaCar and 100 quarter-mile runs for each competitor. 
 
-What metric or metrics are you going to test?
-
-What is the null hypothesis or alternative hypothesis?
-
-What statistical test would you use to test the hypothesis? And why?
-
-What data is needed to run the statistical test?
+Then, from there, I would run t-tests to see if there was any statistical significance to the differences in the horsepower of the cars. 
