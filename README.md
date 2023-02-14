@@ -22,3 +22,35 @@ Screenshot from lot_summary
 
 The data shows that all the lots in general pass the design specifications as the mean is 1498 with a variance of 62. This means that, in general, most coils are between 1436 and 1560. This is mostly within the specifications. However, as seen in lot_summary, Lot 3 appears to be the main culprit of the variance. Lot 3's variance is 170 which means that Lot 3 is definitely out of compliance. Lots 1 and 2 are at 0.97 (fantastic!) and 7.46, respectively. Lot 3 definitely needs to take a look at their protocols and follow the procedures of Lots 1 and 2. 
 
+## T-Tests on Suspension Coils
+
+![image](https://user-images.githubusercontent.com/114685724/218864059-63f888ff-8998-419b-9798-b67d5eec80a4.png)
+
+A t-test of the entire dataset shows close to, but no significant difference between any given PSI and the mean PSI of 1500, with it's p-value of 0.06
+
+![image](https://user-images.githubusercontent.com/114685724/218864283-abdddca2-6d20-4198-9567-f44614437157.png)
+
+The t-test of Lot1's PSIs compared to the 1500 PSI mean showed no difference at all with a p-value of 1 and a mean of 1500
+
+![image](https://user-images.githubusercontent.com/114685724/218864537-f80241d9-f6d5-4147-881b-086f93a96bad.png)
+
+The t-test of Lot2's PSIs compared to the 1500 PSI mean also showed no significant difference with a p-value of 0.6072 and a mean of 1500.2
+
+![image](https://user-images.githubusercontent.com/114685724/218864700-500e4662-d249-4f97-bd52-aeb7c5804a0f.png)
+
+The t-test of Lot3's PSIs compared to the 1500 PSI mean, however, did show a significant difference with a p-value of 0.04168 and a mean of 1496.14. This means that Lot3's mean PSI was statistically different from the rest of the lots and is indeed a problem.
+
+## Study Design: MechaCar vs Competition
+
+
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+In your description, address the following questions:
+
+What metric or metrics are you going to test?
+
+What is the null hypothesis or alternative hypothesis?
+
+What statistical test would you use to test the hypothesis? And why?
+
+What data is needed to run the statistical test?
